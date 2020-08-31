@@ -1,12 +1,10 @@
 # djangoDRF-reactjs
 
-This is a standalone API DRF, you can clone the frontend react project on:
+This is ReactJS + Django API DRF, you can clone the frontend react project on:
 https://github.com/MarqQ/reactjs-frontend-DRF
 
 *****
 To integrate frontend projec:
-* Clone project from link above
-* Paste entire file into main djangoDRF-reactjs
 * cd reactdrf
 * npm run build
 * npx react-gitignore (if want to update react gitignore)
