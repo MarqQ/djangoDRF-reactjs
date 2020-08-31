@@ -1,16 +1,20 @@
 # djangoDRF-reactjs
 
-This frontend project was built on Reactjs and its content is in "reactdrf" folder.
-The DRF serves from todo_drf
-All settings and routes are already configurated
+This is a standalone API DRF, you can clone the frontend react project on:
+https://github.com/MarqQ/reactjs-frontend-DRF
 
-The database is set to run on sqlite3, but the requirements already contain psychopg2 to use postgreSQL 
-
-To run Reacjs settings:
-
+*****
+To integrate frontend projec:
+* Clone project from link above
+* Paste entire file into main djangoDRF-reactjs
 * cd reactdrf
 * npm run build
 * npx react-gitignore (if want to update react gitignore)
+*****
+
+All settings and routes are already configurated
+
+The database is set to run on sqlite3, but the requirements already contain psychopg2 to use postgreSQL 
 
 To run Django/DRF settings:
 
