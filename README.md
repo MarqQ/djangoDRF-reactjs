@@ -1,12 +1,10 @@
 # djangoDRF-reactjs
 
-This is ReactJS + Django API DRF, you can clone the frontend react project on:
-https://github.com/MarqQ/reactjs-frontend-DRF
+This is a ReactJS + Django/DRF API.
 
 *****
-To integrate frontend projec:
-* cd reactdrf
-* npm run build
+About react project:
+
 * npx react-gitignore (if want to update react gitignore)
 *****
 
@@ -25,23 +23,21 @@ To run Django/DRF settings:
 LINUX
 ```
 git clone
-cd todo_drf
 python3 -m venv .venv OR py -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-python manage.py makemigrations
 python manage.py migrate
+python manage.py makemigrations
 python manage.py runserver
 ```
 
 WINDOWS
 ```
 git clone
-cd todo_drf
 python3 -m venv .venv OR py -m venv .venv
 .\.venv\Scripts\activate
 pip install -r requirements.txt
-python manage.py makemigrations
 python manage.py migrate
+python manage.py makemigrations
 python manage.py runserver
 ```
